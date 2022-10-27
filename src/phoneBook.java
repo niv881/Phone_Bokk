@@ -45,13 +45,13 @@ public class phoneBook extends Contact {
 
     }
 
-    public void findByNumber2(long phoneNumber){
-        contactList.forEach(contact -> {
-            if(contact.getPhoneNumber() == phoneNumber){
-                System.out.println(contact + "\n");
-            }
-        });
-    }
+//    public void findByNumber2(long phoneNumber){
+//        contactList.forEach(contact -> {
+//            if(contact.getPhoneNumber() == phoneNumber){
+//                System.out.println(contact + "\n");
+//            }
+//        });
+//    }
 
     public void sortContactByName(){
 

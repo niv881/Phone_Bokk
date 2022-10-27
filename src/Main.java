@@ -3,9 +3,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Contact niv = new Contact("niv" ,"hason",504462881 ,"hakalnit 88");
+        Contact niv = new Contact("niv" ,"hason",5454545 ,"hakalnit 88");
         Contact gilad = new Contact("gilad" ,"hason",54564674 ,"modiin 88");
-        Contact Shoham = new Contact("shoham" ,"hason",537599555 ,"hakalnit 88");
+        Contact Shoham = new Contact("shoham" ,"hason",537555555 ,"hakalnit 88");
         Contact niv_new = new Contact("niv" ,"hason",504462881 ,"modiin 458");
         Contact amos = new Contact("amos" ,"yerushalmi",54264154 ,"moshe 6565");
         Contact nor = new Contact("nor " ,"moshe",5696865 ,"avaron 2123");
@@ -34,8 +34,9 @@ public class Main {
         System.out.println(myPhonebook.getContactList());
 // **************************************************************************
         myPhonebook.findByNumber( 5379555);
-        myPhonebook.findByNumber( 537599555);
+        myPhonebook.findByNumber( 537555555);
 
+// **************************************************************************
 
         myPhonebook.addToThePhoneBookList(amos);
         myPhonebook.addToThePhoneBookList(banana);
@@ -46,16 +47,20 @@ public class Main {
         myPhonebook.addToThePhoneBookList(sami);
         myPhonebook.addToThePhoneBookList(whells);
         myPhonebook.addToThePhoneBookList(spongebob);
+// **************************************************************************
 
         System.out.println(myPhonebook.getContactList());
+// **************************************************************************
 
         Contact spongeBob = new Contact("spongebob" ,"squarePants",598653221 ,"Bikini - Botom");
         myPhonebook.updateContact(spongebob,spongeBob);
         System.out.println(myPhonebook.getContactList());
         myPhonebook.findByNumber( 598653220);
         myPhonebook.findByNumber( 598653221);
+// **************************************************************************
 
         myPhonebook.sortContactByName();
+// **************************************************************************
 
         myPhonebook.format();
 
