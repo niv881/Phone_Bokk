@@ -40,7 +40,7 @@ public class phoneBook extends Contact {
             }
         }
         if (i == contactList.size()){
-            System.out.println("NullPointerException"+ "\n");
+            System.out.println(new NullPointerException() + "\n");
         }
 
     }
