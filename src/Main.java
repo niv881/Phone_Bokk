@@ -38,31 +38,31 @@ public class Main {
 
 // **************************************************************************
 
-//        myPhonebook.addToThePhoneBookList(amos);
-//        myPhonebook.addToThePhoneBookList(banana);
-//        myPhonebook.addToThePhoneBookList(nir);
-//        myPhonebook.addToThePhoneBookList(lama);
-//        myPhonebook.addToThePhoneBookList(loroze);
-//        myPhonebook.addToThePhoneBookList(nor);
-//        myPhonebook.addToThePhoneBookList(sami);
-//        myPhonebook.addToThePhoneBookList(whells);
-//        myPhonebook.addToThePhoneBookList(spongebob);
-//// **************************************************************************
-//
-//        System.out.println(myPhonebook.getContactList());
-//// **************************************************************************
-//
-//        Contact spongeBob = new Contact("spongebob" ,"squarePants",598653221 ,"Bikini - Botom");
-//        myPhonebook.updateContact(spongebob,spongeBob);
-//        System.out.println(myPhonebook.getContactList());
-//        myPhonebook.findByNumber( 598653220);
-//        myPhonebook.findByNumber( 598653221);
-//// **************************************************************************
-//
-//        myPhonebook.sortContactByName();
-//// **************************************************************************
-//
-//        myPhonebook.format();
+        myPhonebook.addToThePhoneBookList(amos);
+        myPhonebook.addToThePhoneBookList(banana);
+        myPhonebook.addToThePhoneBookList(nir);
+        myPhonebook.addToThePhoneBookList(lama);
+        myPhonebook.addToThePhoneBookList(loroze);
+        myPhonebook.addToThePhoneBookList(nor);
+        myPhonebook.addToThePhoneBookList(sami);
+        myPhonebook.addToThePhoneBookList(whells);
+        myPhonebook.addToThePhoneBookList(spongebob);
+// **************************************************************************
+
+        System.out.println(myPhonebook.getContactList());
+// **************************************************************************
+
+        Contact spongeBob = new Contact("spongebob" ,"squarePants",598653221 ,"Bikini - Botom");
+        myPhonebook.updateContact(spongebob,spongeBob);
+        System.out.println(myPhonebook.getContactList());
+        myPhonebook.findByNumber( 598653220);
+        myPhonebook.findByNumber( 598653221);
+// **************************************************************************
+
+        myPhonebook.sortContactByName();
+// **************************************************************************
+
+        myPhonebook.format();
 
 
 
